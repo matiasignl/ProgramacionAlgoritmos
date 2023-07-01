@@ -80,6 +80,7 @@ def mostrar_detalle_lote():
     except ValueError:
         print("Las Coordenadas Ingresadas Son Invalidas")
 
+#DEFINO FUNCION PARA REALIZAR DESPLIEGUE DE LA INFORMACION DE LOS CLIENTES QUE HAN COMPRADO UN LOTE, SI EXISTEN, MUESTRA LA INFO. SI NO, ENVIA UN MENSAJE INDICANDO QUE NO EXISTEN
 def mostrar_clientes():
     if clientes:
         print("Listado De Clientes:")
@@ -95,7 +96,7 @@ def mostrar_clientes():
         print("Todavia No Hay Clientes Registrados :(")
         print("")
 
-
+#DEFINO LA FUNCION PRINCIPAL DEL SISTEMA, EL MENU, SE DESPLEGARA SIEMPRE DESPUES DE TERMINAR UNA ACCION EN UNA DE LAS OPCIONES, LA UNICA OPCION QUE TERMINARA DEFINITIVAMENTE CON EL PROGRAMA ES LA DE SALIR
 def menu():
     while True:
         print("----- Loteos DUOC -----")
